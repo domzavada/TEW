@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title></title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Weather</title>
+  <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+    <div class="app">
+      <header>
+        <input type="text" autocomplete="off" class="search-box" id="input" placeholder="Search your dream city..." />
+      </header>
+      
+      <main>
+        <section class="data">
+          <div class="city">City, Country</div>
+          <div class="temp" id="temp">Temperature</div>
+          <div class="weather">Weather</div>
+          <div class="wind">Wind</div>
+          <div class="pressure">Pressure</div>
+          <div class="max-min">Max / Min</div>
+          <div class="date">Date</div>
+        </section>
+        <div class="addfav">
+            <button type="button" id="favBtn" class="favBtn" >Add to favourite </button>
+    </div>
+        <div class="flex-container">
+            <div>
+                <div class="favourite">Favourite City 1</div>
+                    <div class="cityf1">City, Country</div>
+                    <div class="tempf1" id="temp">Temperature</div>
+                    <div class="weatherf1">Weather</div>
+                    <div class="max-minf1">Max / Min</div>
+                    <div class="clearf1">
+                        <button type="button" id="clearBtnf1" class="clearBtnf1" >Clear </button>
+                </div>         
+            </div> 
+            <div>
+                <div class="favourite">Favourite City 2</div>
+                    <div class="cityf2">City, Country</div>
+                    <div class="tempf2" id="temp">Temperature</div>
+                    <div class="weatherf2">Weather</div>
+                    <div class="max-minf2">Max / Min</div>
+                    <div class="clearf2">
+                        <button type="button" id="clearBtnf2" class="clearBtnf2" >Clear </button>
+                </div>
+            </div>   
+            <div>
+                <div class="favourite">Favourite City 3</div>
+                    <div class="cityf3">City, Country</div>
+                    <div class="tempf3" id="temp">Temperature</div>
+                    <div class="weatherf3">Weather</div>
+                    <div class="max-minf3">Max / Min</div>
+                    <div class="clearf3">
+                        <button type="button" id="clearBtnf3" class="clearBtnf3" >Clear </button>
+                </div>
+            </div>          
+          </div>
+        <div class="form-group">
+            <div class="history">History</div>
+            <textarea class="form-control" type="text" disabled id="history" rows="15"></textarea>
+          </div>
+        <div class="clear">
+            <button type="button" id="clearBtn" class="clearBtn" >Clear </button>
+    </div>
+      </main>
+    </div>
+    
+    <script src="main.js"></script>
+  </body>
+  </html>

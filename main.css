@@ -1,0 +1,286 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: linear-gradient(#ebeb4a, #5b6163);
+  background-size: cover;
+  background-position: top center;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 15px 15px;
+}
+
+header input {
+  width: 100%;
+  max-width: 280px;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  background-color: none;
+  border-radius: 12px 12px 12px 12px;
+  font-size: 1.2em;
+  transition: 0.2s ease-out;
+}
+
+header input:focus {
+  background-color: none;
+}
+
+main {
+  flex: 1 1 100%;
+  padding: 30px 30px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.city {
+  color: #fff;
+  font-size: 2em;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.temp {
+  color: #fff;
+  font-size: 5em;
+  font-weight: 900;
+  margin: 20px;
+}
+
+.temp span {
+  font-weight: 500;
+}
+
+.weather {
+  color: #fff;
+  font-size: 3em;
+  font-weight: 700;
+  font-style: Comic;
+  margin-bottom: 15px;
+}
+
+.max-min {
+  color: #fff;
+  font-size: 2em;
+  font-weight: 500;
+}
+.wind {
+  color: #fff;
+  font-size: 1.6em;
+  font-weight: 200;
+  margin: 5px;
+}
+
+.pressure {
+  color: #fff;
+  font-size: 1.6em;
+  font-weight: 200;
+  margin: 5px;
+}
+
+.cityf1 {
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.tempf1 {
+  color: #fff;
+  font-size: 3em;
+  font-weight: 900;
+  margin: 15px;
+}
+
+.tempf1 span {
+  font-weight: 500;
+}
+
+.weatherf1 {
+  color: #fff;
+  font-size: 2em;
+  font-weight: 700;
+  font-style: Comic;
+  margin-bottom: 5px;
+}
+
+.max-minf1 {
+  color: #fff;
+  font-size: 1.3em;
+  font-weight: 500;
+}
+.cityf2 {
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.tempf2 {
+  color: #fff;
+  font-size: 3em;
+  font-weight: 900;
+  margin: 15px;
+}
+
+.tempf2 span {
+  font-weight: 500;
+}
+
+.weatherf2 {
+  color: #fff;
+  font-size: 2em;
+  font-weight: 700;
+  font-style: Comic;
+  margin-bottom: 5px;
+}
+
+.max-minf2 {
+  color: #fff;
+  font-size: 1.3em;
+  font-weight: 500;
+}
+.cityf3 {
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.tempf3 {
+  color: #fff;
+  font-size: 3em;
+  font-weight: 900;
+  margin: 15px;
+}
+
+.tempf3 span {
+  font-weight: 500;
+}
+
+.weatherf3 {
+  color: #fff;
+  font-size: 2em;
+  font-weight: 700;
+  font-style: Comic;
+  margin-bottom: 5px;
+}
+
+.max-minf3 {
+  color: #fff;
+  font-size: 1.3em;
+  font-weight: 500;
+}
+
+.date {
+  color: #fff;
+  font-size: 1.3em;
+  margin: 30px;
+}
+.history {
+  color: #fff;
+  font-size: 1.3em;
+  margin: 10px;
+}
+.favourite {
+  color: #fff;
+  font-size: 1.7em;
+}
+.form-control {
+  color: #fff;
+  font-size: 1.3em;
+  width: 15vw;
+  text-align: center;
+  border: none;
+  border-radius: 12px 12px 12px 12px;
+  font-weight: 400;
+  resize: none;
+}
+.clearBtn {
+  font-size: 1.2em;
+  color: #fff;
+  margin: 10px;
+  border-radius: 12px 12px 12px 12px;
+  font-weight: 600;
+  height: 30px;
+  width: 80px;
+  background-color: #5b6163;
+  border: none;
+}
+.clearBtnf1 {
+  font-size: 1.2em;
+  color: #fff;
+  margin: 10px;
+  border-radius: 12px 12px 12px 12px;
+  font-weight: 600;
+  height: 30px;
+  width: 80px;
+  background-color: #5b6163;
+  border: none;
+}
+.clearBtnf2 {
+  font-size: 1.2em;
+  color: #fff;
+  margin: 10px;
+  border-radius: 12px 12px 12px 12px;
+  font-weight: 600;
+  height: 30px;
+  width: 80px;
+  background-color: #5b6163;
+  border: none;
+}
+.clearBtnf3 {
+  font-size: 1.2em;
+  color: #fff;
+  margin: 10px;
+  border-radius: 12px 12px 12px 12px;
+  font-weight: 600;
+  height: 30px;
+  width: 80px;
+  background-color: #5b6163;
+  border: none;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container > div {
+  width: 500px;
+  margin: 20px;
+  text-align: center;
+  line-height: 75px;
+  background-image: linear-gradient(#5b6163, #ebeb4a);
+  border-radius: 40px 40px 40px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.favBtn {
+  font-size: 1.2em;
+  color: #fff;
+  margin: 10px;
+  border-radius: 12px 12px 12px 12px;
+  font-weight: 600;
+  height: 30px;
+  width: 180px;
+  background-color: #5b6163;
+  border: none;
+}
